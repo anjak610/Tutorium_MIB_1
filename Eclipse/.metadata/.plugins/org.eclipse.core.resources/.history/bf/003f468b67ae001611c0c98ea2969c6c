@@ -1,0 +1,51 @@
+
+
+public class MinMaxDrei {
+
+	
+	public static void main(String[] args)
+	{
+		int num[] = 
+			{
+					0,1,2		
+			};
+		 
+		System.out.println("num[0]:"+ num[0] +"\n"+ "num[1]:"+num[1] +"\n"+"z:"+z);
+		
+		// Get Min
+		if(num[0] < num[1] && num[0]< z)
+		{
+			System.out.printf("num[0] is Min: %s",num[0] +"\n");
+		}
+		else if (num[1] < num[0] && num[1]< z)
+		{
+			System.out.printf("num[1]is Min: %s",num[1] +"\n");
+		}
+		else if (z< num[1] && z < num[0])
+		{
+			System.out.printf("z is Min: %s",z +"\n");
+		}
+		
+		//Get Max
+		
+		if(num[0] > num[1] && num[0]> z)
+		{
+			System.out.printf("x is Max: %s",x +"\n");
+		}
+		else if (num[1] > num[0] && num[1]> z)
+		{
+			System.out.printf("num[1] is Max: %s",num[1] +"\n");
+		}
+		else if (z>num[1] && z > num[0])
+		{
+			System.out.printf("z is Max: %s",z +"\n");
+		}
+		
+		System.out.print(args.length);
+	}
+ 
+ 
+
+}
+
+

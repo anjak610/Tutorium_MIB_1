@@ -1,0 +1,27 @@
+
+public class MinMaxDrei {
+
+	
+	public static void main(String[] args)
+	{
+		 int x = 6;
+		 int y = 4;
+		 int z = 3;
+		 
+		System.out.println("x:"+ x + "y:"+y +"z:"+z);
+		
+		if(x < y && x< z)
+		{
+			System.out.printf("x is smallest: %s",x);
+		}
+		else if (y< x && y< z)
+		{
+			System.out.printf("y is smallest: %s",y);
+		}
+		else if (z<y && z < x)
+		{
+			System.out.printf("z is smallest: %s",z);
+		}
+	}		
+
+}

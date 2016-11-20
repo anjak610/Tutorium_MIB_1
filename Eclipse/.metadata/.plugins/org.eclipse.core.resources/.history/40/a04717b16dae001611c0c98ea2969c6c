@@ -1,0 +1,11 @@
+
+public class Palindrome {
+	
+	public static void palindrome (String[] palindrome)
+	{
+		String word = "OTTO";
+		char[] letters = word.toCharArray();
+		System.out.println(istPalindrom(letters));   
+	}
+
+}

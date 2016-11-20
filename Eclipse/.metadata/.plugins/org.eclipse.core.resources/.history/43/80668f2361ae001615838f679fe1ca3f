@@ -1,0 +1,40 @@
+
+public class MinMaxDrei {
+
+	
+	public static void main(String[] args)
+	{
+		 int x = 6;
+		 int y = 4;
+		 int z = 3;
+		 
+		System.out.println("x:"+ x +"\n"+ "y:"+y +"\n"+"z:"+z);
+		
+		if(x < y && x< z)
+		{
+			System.out.printf("x is Min: %s",x);
+		}
+		else if (y< x && y< z)
+		{
+			System.out.printf("y is Min: %s",y);
+		}
+		else if (z<y && z < x)
+		{
+			System.out.printf("z is Min: %s",z);
+		}
+		
+		if(x > y && x> z)
+		{
+			System.out.printf("x is Max: %s",x);
+		}
+		else if (y> x && y> z)
+		{
+			System.out.printf("y is Max: %s",y);
+		}
+		else if (z>y && z > x)
+		{
+			System.out.printf("z is Max: %s",z);
+		}
+	}		
+
+}

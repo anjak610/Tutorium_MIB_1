@@ -1,0 +1,12 @@
+
+public class MinMax {
+	
+	public static void main (String[] args)
+	{
+		int num[] = 
+			{
+					9,6,3		
+			};
+	}
+
+}
