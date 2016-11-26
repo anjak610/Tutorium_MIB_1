@@ -1,0 +1,17 @@
+
+public class FindSubstring {
+	
+	public static void main (String[] args)
+	{		
+		substring();
+	}
+	
+	public static void substring()
+	{
+		
+		String A = "Hustensaft";
+		String B = "saft";
+		
+	}
+
+}

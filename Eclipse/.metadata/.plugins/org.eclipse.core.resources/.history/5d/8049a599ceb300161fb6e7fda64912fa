@@ -1,0 +1,17 @@
+
+public class CountOfSigns {
+	
+	public static void main(String[] args)
+	{
+		String str = "engineering";
+		char [] toCheck = str.toCharArray();		
+		
+	}
+	
+	public static void vorkommen()
+	{
+		
+		
+	}
+
+}

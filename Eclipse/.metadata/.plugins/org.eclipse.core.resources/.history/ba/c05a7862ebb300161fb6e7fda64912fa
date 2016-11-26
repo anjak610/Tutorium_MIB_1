@@ -1,0 +1,28 @@
+
+public class Nullstellen {
+	
+	public static void main (String[] args)
+	{
+		double y = 0;
+		double x = 0;
+		System.out.print(f(x,y));
+		
+	}
+	
+	public static double f(double x, double y)
+	{
+		
+		System.out.println(x+y);
+		y = Math.exp(x)+(x*x)-4;
+		return y;
+		
+	}
+	
+	public static double nullstelle (double x, double y, double z)
+	{
+		
+		return z;
+		
+	}
+
+}

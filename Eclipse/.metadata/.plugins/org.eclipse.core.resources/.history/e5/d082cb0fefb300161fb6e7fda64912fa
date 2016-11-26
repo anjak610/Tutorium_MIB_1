@@ -1,0 +1,39 @@
+
+public class Nullstellen {
+	
+	public static void main (String[] args)
+	{
+		double y = 0;
+		double x = 0;
+		//double z = 0;
+		f(-1,0);
+		//nullstelle(-1,20,0.0001);
+		
+	}
+	
+	public static double f(double x, double y)
+	{
+		
+		//System.out.println(x+y);
+		0 = Math.exp(x)+(x*x)-4;
+		System.out.println(y);
+		return y;
+		
+	}
+	
+	public static double nullstelle (double x, double y, double z)
+	{
+		double z = 0.0001;
+		double mitte = (x+y)/2;
+		
+		if(Math.abs(x-y)< z)
+		{
+			return mitte;
+		}
+		else if ()
+		
+		return nullstelle(x,y,z);
+		
+	}
+
+}

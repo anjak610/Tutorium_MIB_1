@@ -1,0 +1,47 @@
+
+public class Nullstellen {
+	
+	public static void main (String[] args)
+	{
+		double x = -1;
+		double x2 = 20;
+		
+		
+		f(x);
+	
+		System.out.println(f(x));
+		 System.out.println( "Die Nullstelle zwischen " + x + " und " + x2 + 
+                 " liegt bei " + nullstelle( x , x2)   ) ;
+		
+		
+	}
+	
+	public static double f(double x)
+	{
+			
+		return Math.exp(x)+(x*x)-4;		
+		
+	}
+	
+	public static double nullstelle (double x, double x2)
+	{
+		double z = 0.0001;
+		double mitte = (x+x2)/2;
+		
+		if(Math.abs(x+x2)< z)
+		{
+			return mitte;
+		}
+			
+			else if(f(x) * f(mitte) <0)
+			{
+				return nullstelle (x,mitte);
+			}
+			else
+			{
+				return nullstelle (mitte,x2);
+			}		
+					
+	}
+
+}

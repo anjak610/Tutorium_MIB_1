@@ -1,0 +1,39 @@
+import java.util.Arrays;
+
+//import java.util.ArrayList;
+//import java.util.List;
+
+public class CreateWord {
+	
+	public static void main (String[] args)
+	{
+		muster();
+	}
+	
+	public static void muster()
+	{
+		//List<Character> list = new ArrayList<Character>();
+		 String word = "ANNA";
+		// char letters[] = words.charAt(i);
+		 char[] letters = word.toCharArray();		 
+		 	 //System.out.print(letters[2]);		 
+		 
+		 for(int i = 0; i <= letters.length-1; i++)
+		 {					
+			 //System.out.println(word.subSequence(0, i));
+			 //System.out.println(letters[i]);
+			// String repeated = new String(new char[i]).replace("\0", word);
+			 //System.out.print(repeated);		
+			 String original = "original ";
+			  char c = 'c';
+			  int number = 9;
+
+			  char[] repeat = new char[number];
+			  Arrays.fill(repeat, c);
+			  original += new String(repeat);
+		
+		 }
+		 
+	}
+
+}

@@ -1,0 +1,31 @@
+
+public class FindSubstring {
+	
+	public static void main (String[] args)
+	{		
+		substring();
+	}
+	
+	public static void substring()
+	{
+		
+		String A = "Hustensaft";
+		String B = "saft";
+		int pos = 0;
+		
+		if(A.contains(B))
+		{
+			System.out.println("B is in A");			
+			char [] lettersA = A.toCharArray();
+			char [] lettersB = B.toCharArray();		
+		
+			
+			for (int i = 0; i < A.length(); i++)
+			{
+				
+			}
+		}
+		
+	}
+
+}

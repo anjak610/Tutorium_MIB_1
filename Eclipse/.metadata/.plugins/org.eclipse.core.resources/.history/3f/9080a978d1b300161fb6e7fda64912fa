@@ -1,0 +1,35 @@
+
+public class CountOfSigns {
+	
+	static String str = "engineering";
+	static char [] toCheck = str.toCharArray();
+	static int counter = 0;
+	
+	public static void main(String[] args)
+	{
+				vorkommen();
+		
+	}
+	
+	public static void vorkommen()
+	{
+						
+		for(int i = 0; i< toCheck.length; i++)
+		{
+			for(char ch : toCheck)
+			{
+				if(ch == toCheck[i])
+				{
+					counter++;
+				}
+			}
+		/*	if(str.charAt(i) == 'g')
+			{
+				counter++;
+			}*/
+			
+		}
+		System.out.println(counter);
+	}
+
+}

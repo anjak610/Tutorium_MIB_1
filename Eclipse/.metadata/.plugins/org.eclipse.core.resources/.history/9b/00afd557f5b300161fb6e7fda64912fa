@@ -1,0 +1,48 @@
+
+public class Nullstellen {
+	
+	public static void main (String[] args)
+	{
+		double x = -1;
+		double x2 = 20;
+		double z = 0.0001;
+		
+		f(x);
+		//nullstelle(x,x2,0.0001);
+		//System.out.println(f(x,x2));
+		//nullstelle(-1,20,0.0001);
+		
+	}
+	
+	public static double f(double x)
+	{
+			
+		return Math.exp(x)+(x*x)-4;	
+	
+		
+	}
+	
+	public static double nullstelle (double x, double x2, double z)
+	{
+		//double z = 0.0001;
+		double mitte = (x+x2)/2;
+		
+		if(Math.abs(x+x2)< z)
+		{
+			//System.out.println(m);
+			return mitte;
+		}
+		//else if()
+		
+		//else 
+		{
+			return nullstelle(x,mitte);
+		}
+
+		
+		
+		//return nullstelle(x,y,z);
+		
+	}
+
+}

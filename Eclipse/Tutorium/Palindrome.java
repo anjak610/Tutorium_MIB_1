@@ -13,7 +13,7 @@ public class Palindrome {
 	
 	 public static boolean istPalindrom(String[] words){
 		 
-		  //String word = "lagertregal";
+		  //String word = "lagregal";
 		  char[] letters = word.toCharArray();	
 		
 	        if(letters.length%2 == 0){
