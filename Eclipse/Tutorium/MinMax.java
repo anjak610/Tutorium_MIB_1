@@ -5,7 +5,7 @@ public class MinMax {
 	{
 		int num[] = 
 			{
-					9,6,3,10,0		
+					9,6,3,10,0,6,4,-5,7		
 			};
 		
 		int min = num[0];
@@ -20,8 +20,9 @@ public class MinMax {
 			if (num[i]> max)
 			{
 				max = num[i];
-			}			
+			}	
 			
+			//System.out.println("Max:"+max);
 		}
 		
 		System.out.println("Min:"+min);

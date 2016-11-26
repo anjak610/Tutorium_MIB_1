@@ -1,0 +1,12 @@
+
+public class ComputeSum {
+	
+	public static void main (String[] args)
+	{
+		int numbers[]=
+			{
+					2,5,6,7,9
+			};
+	}
+
+}

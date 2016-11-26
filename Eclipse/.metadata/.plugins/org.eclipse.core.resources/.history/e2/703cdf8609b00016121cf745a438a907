@@ -1,0 +1,25 @@
+
+public class Tut_21_11 {
+	
+	public static void main (String [] args)
+	{
+		int num [] = {7,10,9};
+	
+	
+	if(num[0] < num[1] && num[0] < num[2])
+	{
+		System.out.println("num[0] is min"+ num[0]);
+	}
+	
+	if(num[1]< num[0] && num[1] < num[2])
+	{
+		System.out.println("num[1] is min"+ num[1]);
+	}
+	
+	if(num[2]< num[0] && num[2] < num[1])
+	{
+		System.out.println("num[2] is min"+ num[2]);
+	}
+
+	}
+}

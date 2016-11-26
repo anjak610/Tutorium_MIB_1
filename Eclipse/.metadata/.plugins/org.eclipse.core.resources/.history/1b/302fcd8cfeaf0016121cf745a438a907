@@ -1,0 +1,27 @@
+import java.util.ArrayList;
+import java.util.List;
+
+public class CreateWord {
+	
+	public static void main (String[] args)
+	{
+		muster();
+	}
+	
+	public static void muster()
+	{
+		//List<Character> list = new ArrayList<Character>();
+		 String word = "ANNA";
+		// char letters[] = words.charAt(i);
+		 char[] letters = word.toCharArray();		 
+		 	 //System.out.print(letters[2]);		 
+		 
+		 for(int i = 0; i <= letters.length; i++)
+		 {					
+			 System.out.println(word.subSequence(0, i));
+		
+		 }
+		 
+	}
+
+}

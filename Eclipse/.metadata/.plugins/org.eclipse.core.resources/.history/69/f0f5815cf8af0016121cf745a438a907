@@ -1,0 +1,35 @@
+
+public class CreateWord {
+	
+	public static void main (String[] args)
+	{
+		muster();
+	}
+	
+	public static void muster()
+	{
+		 String word = "ANNA";
+		// char letters[] = words.charAt(i);
+		 char[] letters = word.toCharArray();
+		 String result = "";
+		 //System.out.print(letters[2]);
+		 
+		 for(int i = 0; i < letters.length; i++)
+		 {			
+			 if(i<0)
+			 {
+				System.out.print(word.charAt(i));
+			 }
+			// System.out.print(word.charAt(i) +"\n");
+			 //System.out.print(word+ "\n");
+			 char a = word.charAt(i);			 
+			 //System.out.print(a);
+				
+			 //System.out.print(word.charAt(i));//*i +"\n");
+			 //System.out.print(word.charAt(i));
+	          //return result;
+			// System.out.print(word.charAt(i));			 
+		 }
+	}
+
+}
