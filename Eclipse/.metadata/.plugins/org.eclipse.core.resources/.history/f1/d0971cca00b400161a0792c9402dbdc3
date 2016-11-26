@@ -1,0 +1,12 @@
+package Examples;
+
+public class ParametersToMethods {
+	
+	public static void main(String[]args)
+	{
+		System.out.println("I'm in main");
+		DoOneThing();
+		System.out.println("I#M back!");
+	}
+
+}
