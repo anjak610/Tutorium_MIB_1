@@ -1,0 +1,16 @@
+package Examples;
+
+public class ParametersToMethods {
+	
+	public static void main(String [] args)
+	{
+		int x = 3;
+		WriteX();
+	}
+	
+	private static void WriteX()
+	{
+		
+	}
+
+}

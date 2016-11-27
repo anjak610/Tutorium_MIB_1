@@ -6,19 +6,19 @@ public class MethodsToMethods {
 	{
 		System.out.println("I'm in main");
 		DoOneThing();
-		System.out.println("Finally I'm back in main");
+		System.out.println("I'm back in main");
 	}
 	
 	private static void DoOneThing()
 	{
 		System.out.println("Now I do one thing");
 		DoAnotherThing();
-		System.out.println("and back to do one thing");s
+		System.out.println("and now I do one thing");
 	}
 	
 	private static void DoAnotherThing()
 	{
-		System.out.println("Now I do another thing");
+		System.out.println(" I do another thing");
 	}
 
 }

@@ -1,0 +1,16 @@
+package Examples;
+
+public class ParametersToMethods {
+	
+	public static void main(String [] args)
+	{
+		int x = 3; // Deklarieren einer Variablen
+		WriteX(x); //Übergeben des Wertes x an die Methode 
+	}
+	
+	private static void WriteX(int y) // Die Methode speichert den Wert dann für sich in einen eigenen int 
+	{
+		System.out.println(y);
+	}
+
+}

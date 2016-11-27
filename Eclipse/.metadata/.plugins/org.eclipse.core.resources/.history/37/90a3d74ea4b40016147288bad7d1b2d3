@@ -1,0 +1,34 @@
+package Examples;
+
+public class ReturnValues {
+	
+	public static void main (String[]args)
+	{
+		int x = 9;
+		int y = 3;
+		//add(x,y);
+		
+		int z = add2(x,y);
+		System.out.println(z);
+		
+		x= x+ 7; //Hier im gegensatz wird das x manipuliert
+		System.out.println(x);
+		
+	}
+	
+	public static void add(int x, int y) // Methode gibt nichts zurück
+	{
+		int z = x+y;
+		System.out.println(z);		
+	}
+	
+	// Wenn man eine z.B int Variable zurückgeben will, dann schreibt man statt void int (String, boolean, double)
+	
+	public static int add2 (int x, int y) // Wird das x in dieser methode verändert, ändert sich nichts am x in der main!!!!
+	{
+		int z = x+y;
+		return z; // Methode endet immer bei return, wenn es einen Rückgabewert hat
+		//Nachfolgender Code wird nie erreicht
+	}
+
+}
