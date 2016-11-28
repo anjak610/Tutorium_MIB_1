@@ -1,0 +1,22 @@
+package Aufgabe_9;
+
+public class Arzt extends Mitarbeiter {
+
+	public int buerozimmernummer;
+	public int[] rang = { 0, 1, 2, 3 };
+
+	public String anrede() {
+		for (int i = 0; i <= 0; i++) {
+			if (super.geschlecht == true && rang[i] == 0) {
+				return (super.vorname + super.nachname); // + rang[i]
+			}
+
+			else // if (super.geschlecht == true && rang[i] > 0)
+			{
+				return (super.vorname + super.nachname); // rang[i]
+			}
+		}
+
+	}
+
+}

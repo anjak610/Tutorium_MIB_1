@@ -1,0 +1,15 @@
+package Aufgabe_9;
+
+public class Test {
+	
+	public static void main(String args[]) {
+	      Person a = new Person();   // Animal reference and object
+	      Person b = new Arzt();   // Animal reference but Dog object
+
+	      a.anrede();   // runs the method in Animal class
+	      b.anrede();   // runs the method in Dog class
+	    
+	   }
+	
+
+}

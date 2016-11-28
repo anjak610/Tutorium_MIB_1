@@ -1,0 +1,9 @@
+package Aufgabe_9;
+
+public class Arzt extends Mitarbeiter{
+	
+	public int buerozimmernummer;
+	public int[] rang = {0,1,2,3};
+	
+	
+}

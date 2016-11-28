@@ -1,0 +1,13 @@
+package Aufgabe_9;
+
+
+public class Person {
+	
+	 public String nachname;
+	 public String vorname;
+	 public boolean geschlecht;
+	
+
+}
+
+
