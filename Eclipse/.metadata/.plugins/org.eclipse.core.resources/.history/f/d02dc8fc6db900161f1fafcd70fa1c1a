@@ -1,0 +1,8 @@
+package Examples.ObjectMethods;
+
+public class Blueprint {
+	
+	String color; // wenn man static schreibt, so wird die Variable ein Element von der Klasse selbst
+	int floors;
+
+}

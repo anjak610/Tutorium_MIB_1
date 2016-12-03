@@ -1,0 +1,14 @@
+package Examples;
+
+public class Point {
+	
+	int x_coord;
+	int y_coord;
+
+
+
+	void Punkt ()
+	{
+		
+	}
+}

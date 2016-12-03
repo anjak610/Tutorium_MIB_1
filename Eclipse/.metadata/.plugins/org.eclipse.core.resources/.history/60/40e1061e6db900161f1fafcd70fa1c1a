@@ -1,0 +1,13 @@
+package Examples.ObjectMethods;
+
+public class BuildHouses {
+	
+	
+	public static void main(String[]args)
+	{		
+		
+		Blueprint HouseRed = new Blueprint(); 
+		
+	}
+
+}

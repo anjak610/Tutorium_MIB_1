@@ -1,0 +1,26 @@
+package Examples.ObjectMethods;
+
+public class BuildHouses {
+	
+	
+	public static void main(String[]args)
+	{		
+		
+		Blueprint h1 = new Blueprint(); 
+		Blueprint h2 = new Blueprint();
+		
+		h2.Blue();
+		
+		h1.color = "red";
+		h1.floors = 3;
+		
+		h2.color = "blue";
+		h2.floors = 2;
+		
+		System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");
+		System.out.println("I want a " + h2.color + " house with " +h2.floors+ " floors");
+	
+		
+	}
+
+}

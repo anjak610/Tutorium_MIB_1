@@ -4,21 +4,22 @@ public class MethodsToMethods {
 	
 	public static void main(String[]args)
 	{
+		//a = new DoOneThing();
 		System.out.println("I'm in main");
-		DoOneThing();
+		MethodsToMethods a = new MethodsToMethods();
+		a.DoOneThing();
 		System.out.println("I'm back in main");
 	}
 	
-	private static void DoOneThing()
+	private void DoOneThing()
 	{
 		System.out.println("Now I do one thing");
 		DoAnotherThing();
 		System.out.println("and now I do one thing");
 	}
 	
-	private static void DoAnotherThing()
+	private void DoAnotherThing()
 	{
 		System.out.println(" I do another thing");
 	}
-
 }

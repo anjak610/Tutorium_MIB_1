@@ -1,0 +1,16 @@
+package Examples.ObjectMethods;
+
+public class TestObjects {
+	
+	
+	public static void main(String[]args)
+	{
+		//Aufruf des Standardkonstruktors
+		Points p = new Points(); 
+		//Ausgabe des Objektes p und seiner Variablen
+		System.out.println("Object p" + p);
+		System.out.println("coords" + p._x);
+		
+	}
+
+}

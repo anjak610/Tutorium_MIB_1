@@ -1,0 +1,21 @@
+package Examples.ObjectMethods;
+
+public class BuildHouses {
+	
+	
+	public static void main(String[]args)
+	{		
+		
+		Blueprint h1 = new Blueprint(); 
+		Blueprint h2 = new Blueprint();
+		
+		h1.color = "red";
+		h1.floors = 3;
+		
+		h2.color = "blue";
+		h2.floors = 1;
+	
+		
+	}
+
+}

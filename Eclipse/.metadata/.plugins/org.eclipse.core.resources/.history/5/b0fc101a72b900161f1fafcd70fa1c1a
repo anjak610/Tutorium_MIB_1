@@ -1,0 +1,15 @@
+package Examples.ObjectMethods;
+
+public class Blueprint {
+	
+	String color; 
+	int floors; // Instance Variable
+	
+	
+	public void Green()
+	{
+		String green = "green";
+		System.out.println("repainted in "+ green);
+	}
+
+}

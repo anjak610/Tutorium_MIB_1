@@ -1,0 +1,25 @@
+package Aufgaben_Eisenbiegler;
+
+public class Iterative_Fibonacci {
+	
+	public static void main (String[] args)
+	{
+		int n = 3;
+		System.out.println(fib(n));
+	}
+	
+	public static int fib(int n)
+	{
+		int fib = 0;
+		int a = 1;
+		
+		for (int i =0; i < n; i++)
+		{
+			fib = fib+a;
+			a = fib;
+			
+		}
+		return fib;
+	}
+
+}

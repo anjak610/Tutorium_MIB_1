@@ -1,0 +1,34 @@
+package Examples.ObjectMethods;
+
+public class Points {
+	
+	int x_coord;
+	int y_coord;
+
+
+	void Points ()
+	{
+		x_coord = 10;
+		y_coord = 10;
+	}
+	
+	void Points ( int _newXcoord)
+	{
+		x_coord = _newXcoord;
+		y_coord = 10;
+	}
+	
+	void Points ( int _newXcoord,  int _newYcoord)
+	{
+		x_coord = _newXcoord;
+		y_coord = _newYcoord;
+		
+	}
+	
+    public void methode()
+    {
+        int lokale_variable;  
+    }
+	
+	
+}

@@ -1,0 +1,13 @@
+package Examples.ObjectMethods;
+
+public class Blueprint {
+	
+	String color; // Instance Variable	
+	int floors; 
+	
+	void add()
+	{
+		
+		floors+=1;
+	}
+}

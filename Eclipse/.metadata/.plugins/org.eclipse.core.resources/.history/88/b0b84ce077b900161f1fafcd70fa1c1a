@@ -1,0 +1,43 @@
+package Examples.ObjectMethods;
+
+public class Test {
+	
+	
+	public static void main(String[]args)
+	{		
+		
+		//Blueprint h1 = new Blueprint(); 
+		//Blueprint h2 = new Blueprint();
+		
+		Blueprint h3 = new Blueprint(2, 3); 
+	
+		
+		//h1.color = "red"; // Hier alles anzugeben ist ja ziemlich doof --> hierfür gibt es Konstruktoren
+		//h1.floors = 3;
+		
+		//h2.color = "blue";
+		//h2.floors = 2;	
+		
+		// Instanz Variabeln
+		//System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");
+		//System.out.println("I want a " + h2.color + " house with " +h2.floors+ " floors");
+		
+		
+		
+		// Instanz Methoden
+		//h1.add();
+		//System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");
+		
+		//h1.add(5);
+		//System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");	
+		
+		//h1.color("red");		
+		//System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");	
+		
+		
+		System.out.println("I want a " + h3.rooms + " rooms and " +h3.floors+ " floors");
+		
+		
+	}
+
+}

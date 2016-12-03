@@ -1,0 +1,75 @@
+package Examples.BinaryTree;
+
+public class BinaryTree
+{
+  static class Node
+  {
+    public Node left;
+    public Node right;
+    public String name;
+
+    public Node(String name, Node left, Node right)
+    {
+      this.name  = name;
+      this.left  = left;
+      this.right = right;
+    }
+  }
+
+  public static void preOrder(Node node)
+  {
+    System.out.print(node.name);
+    if(node.left != null)
+      preOrder(node.left);
+    if(node.right != null)
+      preOrder(node.right);
+  }
+
+  public static void inOrder(Node node)
+  {
+    if(node.left != null)
+      inOrder(node.left);
+    System.out.print(node.name);
+    if(node.right != null)
+      inOrder(node.right);
+  }
+
+  public static void postOrder(Node node)
+  {
+    if(node.left != null)
+      postOrder(node.left);
+    if(node.right != null)
+      postOrder(node.right);
+    System.out.print(node.name);
+  }
+
+  public static void main(String argv[])
+  {
+    /*
+
+         A
+       /    \
+      B      D
+      \    /   \
+       C  E     H
+         / \   /
+        F   G I
+
+    */
+    Node c = new Node("C", null, null);
+    Node f = new Node("F", null, null);
+    Node g = new Node("G", null, null);
+    Node i = new Node("I", null, null);
+    Node b = new Node("B", null, c);
+    Node e = new Node("E", f, g);
+    Node h = new Node("H", i, null);
+    Node d = new Node("D", e, h);
+    Node a = new Node("A", b, d);
+
+    preOrder(a);
+    System.out.println();
+    inOrder(a);
+    System.out.println();
+    postOrder(a);
+  }
+}

@@ -1,0 +1,29 @@
+package Examples;
+
+public class Point {
+	
+	int x_coord;
+	int y_coord;
+
+
+	 void Punkt ()
+	{
+		x_coord = 10;
+		y_coord = 10;
+	}
+	
+	void Punkt2 ( int _newXcoord)
+	{
+		x_coord = _newXcoord;
+		y_coord = 10;
+	}
+	
+	void Punkt3 ( int _newXcoord,  int _newYcoord)
+	{
+		x_coord = _newXcoord;
+		y_coord = _newYcoord;
+		
+	}
+	
+	
+}

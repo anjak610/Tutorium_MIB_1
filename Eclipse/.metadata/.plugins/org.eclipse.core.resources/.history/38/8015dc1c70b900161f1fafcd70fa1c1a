@@ -1,0 +1,15 @@
+package Examples.ObjectMethods;
+
+public class Blueprint {
+	
+	String color; 
+	int floors; // Instance Variable
+	
+	
+	public void Blueprint()
+	{
+		
+		System.out.println("Blueprint created");
+	}
+
+}

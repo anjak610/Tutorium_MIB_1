@@ -1,0 +1,27 @@
+package Examples.ObjectMethods;
+
+public class Blueprint {
+	
+	String color; // Instance Variable	
+	int floors; 
+	int rooms;
+	
+	//Instanz Methoden	
+	void add() 
+	{		
+		floors+=1;
+	}
+	
+	void add(int more)
+	{
+		floors += more;
+	}
+	
+	
+	Blueprint(String Whatcolor, int HowManyfloors)
+	{
+		Whatcolor = color;
+		HowManyfloors = floors;
+		
+	}
+}
