@@ -4,12 +4,18 @@ public class Test {
 	
 	public static void main(String args[]) {
 	      Person a = new Person();   
-	      Person b = new Arzt(); 
+	      Arzt b = new Arzt(); 
+	      Mitarbeiter m = new Mitarbeiter();
+	      
+	      
 	      
 	      a.geschlecht = true;
+	      b.geschlecht = true;
+	      b.rang[0] = 0;
 
 	      System.out.println( a.anrede());   
 	      System.out.println( b.anrede());  
+	      System.out.println(m.verdientMehrals(m));
 	    
 	   }
 	

@@ -1,0 +1,10 @@
+package Aufgabe_9;
+
+public class Krankenpfleger extends Mitarbeiter {
+	
+	public string anrede()
+	{
+		
+	}
+
+}

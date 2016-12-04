@@ -9,7 +9,7 @@ public class Test {
 		Blueprint h1 = new Blueprint(); 
 		Blueprint h2 = new Blueprint();
 		
-		Blueprint h3 = new Blueprint("blue", 2, 3); 
+		Blueprint h3 = new Blueprint("blue", 6, 3); 
 	
 		
 		h1.color = "red"; // Hier alles anzugeben ist ja ziemlich doof --> hierfür gibt es Konstruktoren

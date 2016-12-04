@@ -4,16 +4,38 @@ public class Arzt extends Mitarbeiter {
 
 	public int buerozimmernummer;
 	public int[] rang = { 0, 1, 2, 3 };
-
+	
 	public String anrede() {
 
-		if (super.geschlecht == true) {
-			return (super.vorname + super.nachname); // + rang[i]
+		if (super.geschlecht == true && rang[0] == 0) {
+			return ("AIP " + super.vorname + super.nachname);
 		}
 
-		else // if (super.geschlecht == true && rang[i] > 0)
+		if (super.geschlecht == true && rang[1] == 1) {
+			return ("Fachärzting" + super.vorname + super.nachname);
+		}
+		if (super.geschlecht == true && rang[2] == 2) {
+			return ("Oberärztin" + super.vorname + super.nachname);
+		}
+		if (super.geschlecht == true && rang[3] == 3) {
+			return ("Chefärztin" + super.vorname + super.nachname);
+		}
+
+		if (super.geschlecht == false && rang[0] == 0) {
+			return ("AIP " + super.vorname + super.nachname);
+		}
+		if (super.geschlecht == false && rang[1] == 1) {
+			return ("Facharzt " + super.vorname + super.nachname);
+		}
+		if (super.geschlecht == false && rang[2] == 2) {
+			return ("Oberarzt " + super.vorname + super.nachname);
+		}
+		if (super.geschlecht == false && rang[3] == 3) {
+			return ("Chefarzt" + super.vorname + super.nachname);
+		}
+		else 
 		{
-			return (super.vorname + super.nachname); // rang[i]
+			return null;
 		}
 
 	}
