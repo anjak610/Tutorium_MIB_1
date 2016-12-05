@@ -1,0 +1,9 @@
+package Übung_Vererbung;
+
+public class Lebewesen {
+	
+	int alter;
+	String Name;
+	String Haarfarbe;
+
+}

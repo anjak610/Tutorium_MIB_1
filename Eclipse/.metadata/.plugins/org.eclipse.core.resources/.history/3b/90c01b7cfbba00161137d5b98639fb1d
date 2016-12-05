@@ -1,0 +1,17 @@
+package Übung_Vererbung;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		House a = new House(5,2,"red");
+		
+		System.out.println("I want a " + a.color + " house with " +a.floors+ " floors and " + a.rooms + " rooms");
+		
+		HouseAndGarage b = new HouseAndGarage(2, 4, "red", 2);
+		
+		System.out.println("I want a " + b.color + " house with " +b.floors+ " floors and " + b.rooms + " rooms and a garage for my " + b.cars +" cars ");
+
+	}
+
+}

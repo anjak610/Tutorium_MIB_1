@@ -1,0 +1,17 @@
+package Übung_Vererbung;
+
+public class Test {
+
+	public static void main(String[] args) {
+		
+		Bicycle a = new Bicycle(2,30,6);
+		
+		System.out.println("I want a bike with " + a.gear + " gears a max speed of " +a.speed+ " and the wheel size must be " + a.sizeOfWheels);
+		
+		//HouseAndGarage b = new HouseAndGarage(2, 4, "red", 4);
+		
+		//System.out.println("I want a " + b.color + " house with " +b.floors+ " floors and " + b.rooms + " rooms and a garage for my " + b.cars +" cars ");
+
+	}
+
+}

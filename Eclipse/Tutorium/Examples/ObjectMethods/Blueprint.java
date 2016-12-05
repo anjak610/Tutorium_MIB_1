@@ -10,11 +10,13 @@ public class Blueprint {
 	void add() 
 	{		
 		floors+=1;
+		rooms+=1;
 	}
 	
-	void add(int more)
+	void add(int addFloor, int addRoom)
 	{
-		floors += more;
+		floors += addFloor;
+		rooms += addRoom;
 	}
 	
 	
@@ -22,8 +24,7 @@ public class Blueprint {
 	{
 		color = NewColor;
 		rooms = Newrooms;
-		floors = HowManyfloors;
-		
+		floors = HowManyfloors;	
 		
 	}
 	

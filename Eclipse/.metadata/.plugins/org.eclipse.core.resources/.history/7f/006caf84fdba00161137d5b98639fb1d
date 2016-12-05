@@ -1,0 +1,8 @@
+package Übung_Vererbung;
+
+public class Hund extends Lebewesen {
+	
+	// the Bicycle class has three fields
+
+}
+

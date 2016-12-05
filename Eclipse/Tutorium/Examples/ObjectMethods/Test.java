@@ -7,7 +7,6 @@ public class Test {
 	{		
 		
 		Blueprint h1 = new Blueprint(); 
-		Blueprint h2 = new Blueprint();
 		
 		Blueprint h3 = new Blueprint("blue", 6, 3); 
 	
@@ -22,7 +21,7 @@ public class Test {
 		h1.add();
 		System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");
 		
-		h1.add(5);
+		h1.add(5,4);
 		System.out.println("I want a " + h1.color + " house with " +h1.floors+ " floors");
 		
 		h1.repaint("green");

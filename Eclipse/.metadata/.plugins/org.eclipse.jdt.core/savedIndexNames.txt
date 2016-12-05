@@ -1,20 +1,3 @@
 INDEX VERSION 1.129+L:\Programme\Gitkraken\Tutorium_MIB_1\Eclipse\.metadata\.plugins\org.eclipse.jdt.core
-1067538182.index
-1273064449.index
-3665077326.index
-2324247301.index
-588947035.index
-233791993.index
-50872315.index
-3630558940.index
-2282440692.index
-2218493696.index
-1516778749.index
-3903977843.index
-1540223353.index
-1769797870.index
-3746761363.index
+1657330681.index
 1912144857.index
-344598416.index
-2098175945.index
-933589854.index

@@ -1,0 +1,37 @@
+package Übung_Vererbung;
+
+public class HouseAndGarage extends House {
+	
+	public int garage;
+	public int cars;
+	
+	public HouseAndGarage(int floorsValue, int roomsValue, String newColor, int cars) {
+		super(floorsValue, roomsValue, newColor);	
+	}
+
+	
+	
+	public void newHouse(int floorsValue, int roomsValue, String newColor, int carValue)
+	{
+		floors = floorsValue;
+		rooms = roomsValue;
+		color = newColor;
+		cars = carValue;
+	}
+
+
+	/*public int SizeOfGarage ()
+	{		
+		if (cars == 1)
+		{
+			return garage+1;
+		}
+		if (cars == 2){
+			return garage +2;
+		}
+		System.out.println(garage);
+		return garage;
+	}*/
+	
+	
+}

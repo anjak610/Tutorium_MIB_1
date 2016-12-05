@@ -1,0 +1,20 @@
+package Übung_Vererbung;
+
+public class House {
+	
+	// the Bicycle class has three fields
+	public int floors;
+	public int rooms;
+	public String color;
+	
+	public House(int floorsValue, int roomsValue, String newColor)
+	{
+		floors = floorsValue;
+		rooms = roomsValue;
+		color = newColor;
+	}
+	
+	
+	
+}
+

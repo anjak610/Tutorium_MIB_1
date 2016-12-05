@@ -1,0 +1,17 @@
+package Übung_Vererbung;
+
+public class HouseAndGarage extends House {
+	
+	
+	public int garage;
+	public int cars;
+
+
+	public int SizeOfGarage (int newValue)
+	{
+		newHouse();
+		cars = newValue;
+		return garage;
+	}
+
+}

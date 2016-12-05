@@ -1,0 +1,20 @@
+package Übung_Vererbung;
+
+public class HouseAndGarage extends House {
+	
+
+	//the MountainBike subClass adds one field	
+	public int garage;
+	public int cars;
+	
+	//the MountainBike subclass has one constructor
+	
+	
+	//the Mountainbike subclass adds one method	
+	public int SizeOfGarage (int newValue)
+	{
+		cars = newValue;
+		return garage;
+	}
+
+}

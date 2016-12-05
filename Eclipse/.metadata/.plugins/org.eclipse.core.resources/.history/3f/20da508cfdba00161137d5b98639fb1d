@@ -1,0 +1,17 @@
+package Übung_Vererbung;
+
+public class Mensch extends Lebewesen {
+	
+	int iq = 20;
+
+
+	void bildung ()
+	{
+		iq += 5;
+	}
+	
+	void bildung(int wieviel)
+	{
+		iq += wieviel;
+	}
+}

@@ -1,0 +1,24 @@
+package Übung_Vererbung;
+
+public class HouseAndGarage extends House {
+	
+	
+	public int garage;
+	public int cars;
+	
+	public void newHouse()
+	{
+		floors = 4;
+		rooms = 7;
+		color = "red";
+	}
+
+
+	public int SizeOfGarage (int newValue)
+	{
+		
+		cars = newValue;
+		return garage;
+	}
+
+}
