@@ -6,6 +6,7 @@ public class Iterative_Fibonacci {
 		int n = 5;
 			
 		fibonacci(n);
+		
 	}
 
 	
@@ -21,6 +22,7 @@ public class Iterative_Fibonacci {
 	        System.out.println("Step "+i+": "+a[i]);
 	    }
 	    System.out.println("Array size --> "+a.length);
+	    System.out.println(a[5]);
 	}
-
+		
 }
