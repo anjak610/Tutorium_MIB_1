@@ -1,0 +1,10 @@
+package Aufgabe_8;
+
+public class ListeTester {
+	
+	public static void main(String[]args)
+	{
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+package Aufgabe_10;
+
+public class Abstract_test {
+	
+	public static void main (String[]args)
+	{
+		
+	}
+
+}

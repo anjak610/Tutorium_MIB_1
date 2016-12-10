@@ -15,7 +15,7 @@ public class Bicycle {
 		sizeOfWheels = startWheel;		
 	}
 	
-	//public Bicycle(){};
+	public Bicycle(){};
 	
 	//Bicycle class has four more methods
 	

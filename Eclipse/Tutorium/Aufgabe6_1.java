@@ -2,10 +2,10 @@
 public class Aufgabe6_1 {
 
 	public static void main(String[] args) {
-		int p [] [] = Picture.load("C:/Users/Beyza/workspace/Aufgabe6/grafik.jpg");
+		//int p [] [] = Picture.load("C:/Users/Beyza/workspace/Aufgabe6/grafik.jpg");
 		//p = rect(p,30,70,250,160); 					// Größe vom Rechteckt
-		p = horizontal (p);
-		Picture.show(p);
+		//p = horizontal (p);
+		//Picture.show(p);
 		
 	}	
 	

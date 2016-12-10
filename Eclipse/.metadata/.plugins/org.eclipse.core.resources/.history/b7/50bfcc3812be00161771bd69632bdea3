@@ -1,0 +1,12 @@
+package Aufgabe_10;
+
+public class Abstract_test {	
+	
+	
+	public static void main (String[]args)
+	{
+		QuadratischeFunktion findNull = new QuadratischeFunktion(-1,10,0.001);
+		
+	}
+
+}

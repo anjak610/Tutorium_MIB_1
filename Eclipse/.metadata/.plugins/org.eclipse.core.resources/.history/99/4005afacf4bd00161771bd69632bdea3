@@ -1,0 +1,10 @@
+package Aufgabe_10;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Stack{
+	
+	List<Object> stack = new ArrayList<Object>();
+
+}

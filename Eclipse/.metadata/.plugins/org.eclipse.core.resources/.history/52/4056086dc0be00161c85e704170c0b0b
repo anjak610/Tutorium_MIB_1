@@ -1,0 +1,51 @@
+package Aufgabe_8;
+
+public class Liste {
+
+	public int element;
+	public Liste nachfolger;
+	
+	public Liste(int w)
+	{
+		element = w;
+		nachfolger = null;
+	}
+	
+	public void hinzufügen (int w)
+	{
+		if(nachfolger == null)
+		{
+			nachfolger = new Liste(w);
+		}
+		else
+		{
+			nachfolger.hinzufügen(w);
+		}
+	}
+	
+	public int laenge()
+	{
+		int laenge = element;		
+		return laenge;	
+	}
+	
+	public void entfernen()
+	{	
+		int last = element -1;
+		if(nachfolger != null)
+		{			
+			element = last;			
+		}
+		
+		if(element <= 1)
+		{
+			element = 1;
+		}
+	}
+	
+	public String toString()
+	{			
+		String s =  "4";		
+		return s;
+	}
+}

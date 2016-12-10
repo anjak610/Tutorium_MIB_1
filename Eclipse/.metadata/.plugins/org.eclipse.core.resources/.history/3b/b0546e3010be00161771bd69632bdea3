@@ -1,0 +1,28 @@
+package Aufgabe_10;
+
+public class QuadratischeFunktion extends Funktion {
+	
+	public double a;
+	public double b;
+	public double c;
+	
+	public QuadratischeFunktion(double newA, double newB, double newC)
+	{
+		newA = a;
+		newB = b;
+		newC = c;		
+	}
+	
+	public void f()
+	{
+		
+	}
+
+	@Override
+	public double f(double x) {
+		x = a*(x*x)+b*x+c;
+		return x;
+	}
+	
+
+}

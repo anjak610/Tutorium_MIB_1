@@ -1,0 +1,96 @@
+package Aufgabe_8;
+
+public class Liste {
+
+	public int element;
+	public Liste nachfolger;
+	
+	
+	public Liste(int w)
+	{
+		element = w;
+		nachfolger = null;
+		
+	}
+	
+	public void hinzufügen (int w)
+	{
+		//int laenge = 1;	
+		if(nachfolger == null)
+		{
+			nachfolger = new Liste(w);
+		}
+		else
+		{
+			nachfolger.hinzufügen(w);
+			//laenge++;
+		}
+	}
+	
+	public void entfernen()
+	{	
+		if(nachfolger.nachfolger == null)
+		{
+			nachfolger = null;
+		}
+		else
+		{
+			nachfolger.entfernen();
+		}		
+	}
+	
+	public int counter (int i)
+	{
+		if (nachfolger == null)
+		{
+			i++;
+			return i;
+		}
+		else 
+		{
+			i++;
+			return nachfolger.counter(i);			
+		}		
+	}
+	
+	public int laenge()
+	{		
+		int laenge = 0;
+		
+		laenge = counter(laenge);
+		
+		return laenge;
+	}
+	
+	
+	
+	public String Ausgabe(String str)
+	{
+		if (nachfolger == null)
+		{
+			str = "." + element;
+			return str;
+		}
+		else 
+		{
+			str = "," +element ;
+			return nachfolger.Ausgabe(str);
+			
+		}
+		
+	}
+	
+	public String toString()
+	{	
+		String str = "";
+		str = str + element;
+	    
+		while (nachfolger != null)
+		{	
+			str = 	str + "," +nachfolger.element;	
+			nachfolger = nachfolger.nachfolger; 
+		}	
+		return str;	
+	}	
+
+}

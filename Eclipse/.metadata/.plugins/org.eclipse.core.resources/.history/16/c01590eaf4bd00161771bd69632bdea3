@@ -1,0 +1,15 @@
+package Aufgabe_10;
+
+//import java.util.ArrayList;
+import java.util.List;
+
+public class Stack<Object>{
+	
+	//List<Object> stack = new ArrayList<Object>();
+	private List<Object> first;
+
+	public Stack()
+	{
+		first = null;
+	}
+}

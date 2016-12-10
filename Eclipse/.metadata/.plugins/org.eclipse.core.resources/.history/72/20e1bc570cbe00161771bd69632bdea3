@@ -1,0 +1,18 @@
+package Aufgabe_10;
+
+public class QuadratischeFunktion extends Funktion {
+	
+	public double a;
+	public double b;
+	public double c;
+	
+	public QuadratischeFunktion(int newA, int newB, int newC)
+	{
+		newA = a;
+		newB = b;
+		mewC = c;
+		
+	}
+	
+
+}

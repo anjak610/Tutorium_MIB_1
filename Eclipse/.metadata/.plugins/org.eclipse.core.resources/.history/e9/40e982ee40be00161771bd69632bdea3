@@ -1,0 +1,21 @@
+package Aufgabe_8;
+
+public class ListeTester {
+	
+	public static void main(String[]args)
+	{
+		Liste x = new Liste(3);
+		x.hinzufügen(5);
+		x.hinzufügen(4);
+		x.hinzufügen(7);
+		x.entfernen();
+		x.entfernen();
+		x.entfernen();
+		x.entfernen();
+		
+		System.out.println(x.toString());
+		System.out.println(x.laenge());
+		
+	}
+
+}

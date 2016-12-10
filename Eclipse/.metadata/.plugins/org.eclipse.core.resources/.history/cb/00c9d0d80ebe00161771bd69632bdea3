@@ -1,0 +1,8 @@
+package Aufgabe_10;
+
+abstract class Funktion {
+	
+	public abstract double f(double x);
+	
+
+}
