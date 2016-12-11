@@ -15,13 +15,12 @@ public class ListeTester {
 		System.out.println(x.nachfolger.nachfolger.nachfolger.element);
 		x.hinzufügen(6);
 		
+		
 		//x.entfernen();
 		System.out.println(x.toString());
 		System.out.println(x.laenge());
 		System.out.println(x.summe());	
-		
-			
-	
-		
+		System.out.println(x.addiere(5));			
+		System.out.println(x.toString());
 	}
 }

@@ -85,10 +85,21 @@ public class Liste {
 		return summe;
 	}
 	
-	//public int addiere()
-	//{
-	
-	//}
+	public int addiere(int result)
+	{	  
+	  
+	  if ( nachfolger == null)
+		{
+			element = result + element;
+			return element;
+		}
+		else 
+		{
+			element = result + element;
+			System.out.println(element);
+			return nachfolger.addiere(result);
+		}	  
+	}
 	
 
 }
