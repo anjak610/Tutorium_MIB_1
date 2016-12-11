@@ -1,0 +1,22 @@
+package Aufgabe_9;
+
+public class Personenliste {
+	
+	public int anzahl;
+	Person[] personen = new Person[1000];
+	public boolean[] anwesend = new boolean[1000];
+	
+	Personenliste ()
+	{
+		Personenliste Liste = new Personenliste();
+	}
+	
+	public void hinzufügen(Person pers)
+	{
+		if(anzahl != 1000)
+		{
+			
+		}
+	}
+
+}

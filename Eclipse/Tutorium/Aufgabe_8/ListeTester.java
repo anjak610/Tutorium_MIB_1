@@ -22,5 +22,6 @@ public class ListeTester {
 		System.out.println(x.summe());	
 		System.out.println(x.addiere(5));			
 		System.out.println(x.toString());
+	
 	}
 }

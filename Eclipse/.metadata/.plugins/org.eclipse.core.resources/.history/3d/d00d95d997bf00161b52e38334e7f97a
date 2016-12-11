@@ -1,0 +1,9 @@
+package Aufgabe_9;
+
+public class Personenliste {
+	
+	public int anzahl;
+	Person[] personen;
+	public boolean[] anwesend;
+
+}
