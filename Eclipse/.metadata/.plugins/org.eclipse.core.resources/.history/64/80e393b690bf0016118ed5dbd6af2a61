@@ -1,0 +1,46 @@
+package Aufgabe_9;
+
+public class Test {
+	
+	public static void main(String args[]) {
+	      Person a = new Person();   
+	      Arzt b = new Arzt(); 
+	      Krankenpfleger k = new Krankenpfleger();
+	      Mitarbeiter m = new Mitarbeiter();
+	      Kunde f = new Kunde();
+	      
+	      a.geschlecht = false;
+	      a.vorname= "Jörg ";
+	      a.nachname="Röder ";
+	      
+	      b.geschlecht = true;
+	      b.rang = 3;
+	      b.vorname = "Helena ";
+	      b.nachname = "Heller";
+	      System.out.println(b.anrede()); 
+	      
+	      b.geschlecht = false;
+	      b.rang = 2;
+	      b.vorname = "Martin ";
+	      b.nachname = "Müller";
+	      
+	      k.geschlecht = true;
+	      k.vorname = "Jana ";
+	      k.nachname="Bauer";
+	      
+	      f.behandelnderArzt = b;
+	      
+	      
+	      System.out.println(a.anrede());   
+	      System.out.println(b.anrede()); 
+	      System.out.println(k.anrede()); 
+	      System.out.println(k.formloseAnrede());
+	      System.out.println(m.verdientMehrals(m));
+	      
+	      System.out.println(f);
+	      
+	    
+	   }
+	
+
+}

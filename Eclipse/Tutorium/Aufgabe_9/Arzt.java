@@ -12,13 +12,13 @@ public class Arzt extends Mitarbeiter {
 		}
 
 		if (super.geschlecht == true && rang == 1) {
-			return ("Fachärzting" + super.vorname + super.nachname);
+			return ("Fachärzting " + super.vorname + super.nachname);
 		}
 		if (super.geschlecht == true && rang == 2) {
-			return ("Oberärztin" + super.vorname + super.nachname);
+			return ("Oberärztin " + super.vorname + super.nachname);
 		}
 		if (super.geschlecht == true && rang == 3) {
-			return ("Chefärztin" + super.vorname + super.nachname);
+			return ("Chefärztin " + super.vorname + super.nachname);
 		}
 
 		if (super.geschlecht == false && rang == 0) {
@@ -31,7 +31,7 @@ public class Arzt extends Mitarbeiter {
 			return ("Oberarzt " + super.vorname + super.nachname);
 		}
 		if (super.geschlecht == false && rang == 3) {
-			return ("Chefarzt" + super.vorname + super.nachname);
+			return ("Chefarzt " + super.vorname + super.nachname);
 		}
 		else 
 		{

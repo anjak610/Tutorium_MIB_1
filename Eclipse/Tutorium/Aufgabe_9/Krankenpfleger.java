@@ -20,7 +20,10 @@ public class Krankenpfleger extends Mitarbeiter {
 	
 	public String formloseAnrede()
 	{
-		return a.anrede();
+	  a.geschlecht = geschlecht; 
+	  a.vorname = vorname; 
+	  a.nachname= nachname;
+	  return a.anrede();
 	}
 
 }

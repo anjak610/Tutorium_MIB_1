@@ -1,0 +1,31 @@
+package Aufgabe_9;
+
+public class Test {
+	
+	public static void main(String args[]) {
+	      Person a = new Person();   
+	      Arzt b = new Arzt(); 
+	      Krankenpfleger k = new Krankenpfleger();
+	      Mitarbeiter m = new Mitarbeiter();
+	      
+	      
+	      
+	      a.geschlecht = true;
+	      b.geschlecht = false;
+	      b.rang = 2;
+	      b.vorname = "Martin ";
+	      b.nachname = "Müller";
+	      
+	      k.vorname = "Jan ";
+	      k.nachname="Bauer";
+	      
+	      
+	      System.out.println(a.anrede());   
+	      System.out.println(b.anrede());  
+	      System.out.println(m.verdientMehrals(m));
+	      System.out.println(k.anrede()); 
+	    
+	   }
+	
+
+}

@@ -1,0 +1,22 @@
+package Aufgabe_9;
+
+public class Mitarbeiter extends Person {
+	public int personalnummer;
+	public int gehalt;	
+	
+	Arzt a = new Arzt();
+	
+	public boolean verdientMehrals(Mitarbeiter vergleichsMitarbeiter)
+	{
+		if(vergleichsMitarbeiter.gehalt >= a.gehalt)
+		{		
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+		
+	}
+
+}

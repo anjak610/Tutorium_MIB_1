@@ -12,11 +12,11 @@ public class Person {
 		 
 		 if(geschlecht == true)
 		 {
-			 return ("Frau" + vorname + nachname);
+			 return ("Frau " + vorname + nachname);
 		 }
 		 else
 		 {
-			 return  ("Herr" + vorname + nachname);
+			 return  ("Herr " + vorname + nachname);
 		 }
 	 }
 	

@@ -1,0 +1,7 @@
+package Aufgabe_9;
+
+public class Kunde extends Person{
+	
+	Arzt behandelnderArzt = new Arzt();		
+
+}
