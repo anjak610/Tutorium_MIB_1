@@ -16,7 +16,7 @@ public class StackTest {
 	      //theStack.pop();
 	      //theStack.pop();
 	      while (!theStack.isEmpty()) {
-	         Object value = theStack.pop();
+	         Object value = theStack.pop();//warum muss das da sein damit, theStack.toString funktioniert???????
 	         System.out.print(theStack.toString());
 	         //System.out.print(" ");
 	      }
