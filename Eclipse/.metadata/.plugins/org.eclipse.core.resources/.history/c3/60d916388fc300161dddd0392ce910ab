@@ -1,0 +1,27 @@
+package Aufgabe14_4;
+
+public class Zeichensatz {
+	
+	public static void main (String[]args)
+	{
+		int a = 14;
+		int b = 20;
+		zeichenTabelle(a,b);
+	}
+	
+	public static void zeichenTabelle(int a, int b)	
+	{
+		for(int i = a; i <=b ; i++)
+		{
+			int x ='i';
+			char xab = (char)x;
+			System.out.println(x + "\t " + xab + "\t" + Integer.toString(x,2) + "\t" + Integer.toString(x,16));
+			//System.out.println((char) x);
+		}
+			
+	}
+
+}
+
+
+

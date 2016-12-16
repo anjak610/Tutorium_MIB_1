@@ -1,0 +1,27 @@
+package Aufgabe14_5;
+
+public class Quadrat {
+
+	public static void main(String[] args) {
+		int k = 2;
+		quadrate(k);
+
+	}
+
+	private static void quadrate(int k) {
+		for (int i = 0; i <= k; i++) 
+		{
+			if (i == 0) 
+			{
+				System.out.print("*");
+				//quadrate(k - 1);
+			}
+			
+			if (i > 0 && i < k) 
+			{
+				System.out.print("*");
+				//quadrate(k - 1);
+			}
+		}
+	}
+}

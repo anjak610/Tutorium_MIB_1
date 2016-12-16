@@ -1,0 +1,38 @@
+package Aufgabe14_5;
+
+public class Quadrat {
+
+
+	public static void main(String[] args) {
+	
+		int k = 6;
+		quadrate(k);
+
+	}
+
+	private static void quadrate(int k) {
+
+
+		if (k > 0 ) {			
+			System.out.print("*");
+			quadrate(k - 1);	
+		}
+
+		if (k > 1) {
+			System.out.print("\n"+"*" );	//+ "-"	
+			//quadrate(k - 1);
+		}
+		
+		if(k>0 && k<k)
+		{
+			System.out.print("\n" + "-");	
+		}
+		if(k==k)
+		{
+			System.out.print("*");
+			//quadrate(k - 1);	
+		}
+	
+		
+	}
+}

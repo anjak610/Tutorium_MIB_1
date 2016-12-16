@@ -1,0 +1,52 @@
+package Aufgabe14_5;
+
+public class Quadrat {
+	
+	public static int k = 6;
+	public static char star = '*';
+	public static char fill = '-';
+	
+	public static char[] quad = new char[k];
+
+	public static void main(String[] args) {
+	
+		
+		quadrate(k);
+
+	}
+
+	private static void quadrate(int k) {
+
+		
+		/*for (int i = 0; i < k; i++)
+		{
+			quad[i] = star;
+			System.out.print(quad[i]);
+		}
+		
+		for(int i = k-k+1; i<k ; i++)
+		{
+			quad[k-k+1] = star;
+			quad[k-i] = fill;		
+			System.out.print("\n" +quad[i]);
+			
+		}*/
+		if (k > 0 ) {			
+			System.out.print("*");
+			quadrate(k - 1);	
+		}
+
+		if (k > 1) {
+			System.out.print("\n"+"*" + "-");		
+			//quadrate(k - 1);
+		}
+		
+		if(k==k)
+		{
+			System.out.print("*");
+			quadrate(k - 1);	
+		}
+	
+		
+	}
+}

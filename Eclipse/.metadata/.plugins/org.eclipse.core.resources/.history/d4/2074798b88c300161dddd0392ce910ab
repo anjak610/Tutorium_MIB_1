@@ -1,0 +1,31 @@
+package Zusatzaufgaben.Aufgabe14_3;
+
+public class NullstellenNewton {
+	
+	public static void main (String[] args)
+	{
+		
+	}
+	
+	public double f(int x)
+	{
+		return Math.exp(x)+x*x-4;
+	}
+	
+	public double g(int x)
+	{
+		return Math.exp(x) +2*x;
+	}
+	
+	public double nullstelle(double x, double z)
+	{
+		double result = f(x)/g(x);
+		
+		if(Math.abs(f(x)/g(x)) > z )
+		{
+			return nullstelle(result,z);
+		}
+		return result;
+	}
+
+}

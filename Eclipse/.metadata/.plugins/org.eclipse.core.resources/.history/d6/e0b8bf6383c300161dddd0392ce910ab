@@ -1,0 +1,10 @@
+package Zusatzaufgaben.Aufgabe14_3;
+
+public class NullstellenNewton {
+	
+	public double f(int x)
+	{
+		return Math.exp(x)+x*x-4;
+	}
+
+}

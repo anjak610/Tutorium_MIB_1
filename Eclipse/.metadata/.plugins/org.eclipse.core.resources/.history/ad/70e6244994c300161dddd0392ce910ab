@@ -1,0 +1,13 @@
+package Aufgabe14_5;
+
+public class Quadrat {
+
+	public static void main (String [] args)
+	{
+		String str = "*";
+	
+		int x = 6;
+		
+		System.out.println(str);
+	}
+}

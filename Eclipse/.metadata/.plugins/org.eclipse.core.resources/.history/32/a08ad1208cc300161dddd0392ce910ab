@@ -1,0 +1,14 @@
+
+public class Zeichensatz {
+	
+	public void main (String[]args)
+	{
+		
+	}
+	
+	public static void zeichenTabelle(int a, int b)	
+	{
+		
+	}
+
+}

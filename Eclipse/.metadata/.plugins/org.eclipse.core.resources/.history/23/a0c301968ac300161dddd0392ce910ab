@@ -1,0 +1,36 @@
+package Zusatzaufgaben;
+
+public class NullstellenNewton {
+	
+	public static void main (String[] args)
+	{
+		double x = 9;
+		double z = 0.0001;
+		System.out.println("Die Nullstelle  liegt bei " +  nullstelle(x, z));
+	}
+	
+	public static double f(double x)
+	{
+		return Math.exp(x)+x*x-4;
+	}
+	
+	public static double g(double x)
+	{
+		return Math.exp(x) +2*x;
+	}
+	
+	public static double nullstelle(double x, double z)
+	{
+		double result = x - f(x)/g(x);
+		
+		if(Math.abs(result) > z )
+		{
+			return nullstelle(result,z);//nullstelle(result,z);
+		}
+		else
+		{
+		return result;
+		}
+	}
+
+}
