@@ -1,0 +1,22 @@
+package Aufgabe14_6;
+
+public class Primzahlen {
+
+
+	
+	public static void main (String[]args)
+	{
+		int a = 6;
+		int b = 4;
+		
+		
+	}
+	public boolean teilbar()
+	{
+		if(a%b == 0)
+		{
+			
+		}
+	}
+	
+}
