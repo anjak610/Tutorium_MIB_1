@@ -1,6 +1,0 @@
-package Aufgabe9_2;
-
-public class Personenliste {
-	
-
-}

@@ -2,43 +2,46 @@ package Aufgabe14_5;
 
 public class Quadrat {
 
-	public static String result = "";
-	public static String star = "";
-
 	public static void main(String[] args) {
 
-		int k = 8;
+		int k = 4;
 		quadrate(k);
-		//System.out.print("\n" +star);
 	}
 
 	private static void quadrate(int k) {
-		
-		//for schleife schreiben, zu doof für rekursion......
-		if (k > 0) { //(k > 0) 
-			System.out.print("*");		
-			if(k-1>1)
-			{
-				result += "-";
-			}	
-			star += "*";		
-				
-			quadrate(k - 1);
-			
-			if (k-1 > 1) {
-				System.out.print("\n" + "*" + result + "*");			
+
+		for (int i = 0; i <= k * k - 1; i++) {
+
+			int a = (i % k) + 1;
+			int b = (i / k) + 1;
+
+			if (b == 1 || b == k) {
+				if (a == 1) {
+					System.out.print("\n");
+				}
+				System.out.print("*");
 			}
-			
-				
-		}	
-		
-		
-		
-		/*if(k == 0)
-		{
-			System.out.print("\n" + "*" + result + "*" + "\n" +star);
-		}*/
-		
+
+			/*
+			 * if(b == k) { if(a ==1) { System.out.print("\n"); }
+			 * System.out.print("*"); }
+			 */
+
+			if (b != 1 && b != k) {
+				if (a == 1) {
+					System.out.print("\n" + "*");
+				}
+				if (a == k) {
+					System.out.print("*");
+				}
+
+				if (a != k && a != 1) {
+					System.out.print("-");
+				}
+			}
+
+		}
+
 	}
-	
+
 }
