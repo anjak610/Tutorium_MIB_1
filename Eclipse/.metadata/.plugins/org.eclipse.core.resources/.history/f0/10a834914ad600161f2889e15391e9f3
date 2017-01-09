@@ -1,0 +1,25 @@
+package klasuraufgabgen_1;
+
+public class Test {
+	
+	public int a ; 
+	private String b;
+	public Test c; 
+	
+	public Test (int q)
+	{
+		a = q;
+		b= true;
+		c= null;
+		return a;
+	}
+	
+	public boolean f (int r)
+	{
+		int p = 4;
+		p = 7;
+		q= p+3;
+		
+	}
+
+}

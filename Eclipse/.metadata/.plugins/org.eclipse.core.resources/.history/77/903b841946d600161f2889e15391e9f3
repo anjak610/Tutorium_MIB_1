@@ -1,0 +1,17 @@
+package klasuraufgabgen_1;
+
+public class Aufgabe3 {
+	
+	public int a ; 
+	private String b;
+	public Test c;
+	
+	public Test (int q)
+	{
+		a = q;
+		//b= true;
+		//c= null;
+		return a;
+	}
+
+}
