@@ -1,0 +1,35 @@
+package klasuraufgabgen_1;
+
+public class Test_F {
+
+	public static double f(double a, double b) throws MeineException {
+		if (b<0.0001)
+		throw new MeineException(a, b);
+		return a/b;
+		}
+		public static double g(double a) throws Exception {
+		if (a<0)
+		throw new Exception("Wurzel aus negativer Zahl.");
+		return Math.sqrt(a);
+		}
+		public static void h(double a, double b, double c) {
+		try {
+		if (a>b)
+		System.out.println( g(f(f(a,b),c)) );
+		else
+		System.out.println( f(a,g(b)) );
+		} catch (Exception e) {
+		if (a<3) {
+		MeineException me = (MeineException)e;
+		System.out.println(me.a + " - " + me.b);
+		}
+		}
+		}
+		public static void main(String[] args) {
+		h(16.0, 2.0, 2.0);
+		h(9.0, 9.0, 3.0);
+		h(-4.0, 0.0, 0.0);
+		h(-5.0, -1.0, 1.0);
+		}
+		
+}
