@@ -1,0 +1,62 @@
+package klasuraufgabgen_1.Klausur_F3;
+
+public class Arbeitstage {
+	
+	public Wochentag Tage;
+	
+	public boolean istArbeitstag()
+	{
+		switch(Tage){
+		case MONTAG: 
+	    {
+	    	return true;
+	    }
+		case DIENSTAG: 
+	    {
+	    	return true;
+	    }
+		case MITTWOCH: 
+	    {
+	    	return true;
+	    }
+		case DONNERSTAG: 
+	    {
+	    	return true;
+	    }
+		case FREITAG: 
+	    {
+	    	return true;
+	    }    
+	 }
+		 return false;
+	}
+	
+	
+	public Wochentag nachfolger()
+	{
+		switch(Tage){
+		case MONTAG: 
+	    {
+	    	return true;
+	    }
+		case DIENSTAG: 
+	    {
+	    	return true;
+	    }
+		case MITTWOCH: 
+	    {
+	    	return true;
+	    }
+		case DONNERSTAG: 
+	    {
+	    	return true;
+	    }
+		case FREITAG: 
+	    {
+	    	return Tage.SAMSTAG;
+	    }  
+		
+	}
+}
+
+

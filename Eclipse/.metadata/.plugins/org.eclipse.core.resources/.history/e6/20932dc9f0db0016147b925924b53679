@@ -1,0 +1,15 @@
+package klasuraufgabgen_1.Klausur_F3;
+
+public class Test {
+	
+	public Wochentag Tage;
+	
+	public boolean istArbeitstag()
+	{
+		if(Tage.MONTAG != null)
+		{
+			return true;
+		}
+	}
+
+}

@@ -10,13 +10,11 @@ public class NamenArray{
 		strArray[1] = "Nicki";
 		strArray[2] = "Hanna";
 		strArray[3] = "Josefine";
-		strArray[4] = "Fenja";
-		strArray[5] = "Jose";
-		strArray[6] = "jan";
-		//strArray[strArray.length -1] = "Ende";
+	
+		strArray[strArray.length -1] = "Ende";
 		
 		String s = "Hanna";
-		System.out.println(namenSuche(strArray, s));
+		//System.out.println(namenSuche(strArray, s));
 		namenSort(strArray);
 		//System.out.println(namenSort(strArray));
 		
@@ -46,7 +44,7 @@ public class NamenArray{
 	
 	public static void namenSort(String[] strAr)
 	{
-		for (int i = 0; i< strAr.length-2; i++)
+		for (int i = 0; i< strAr.length-4; i++)
 		{
 			if(strAr[i].length() > strAr[i+1].length())
 			{
@@ -55,8 +53,7 @@ public class NamenArray{
 				strAr[i] =  strAr[i+1];
 				
 				strAr[i+1] = tmp;				
-			}
-		
+			}		
 		
 			/*if(strAr[i].length() == strAr[i+1].length())
 			{
